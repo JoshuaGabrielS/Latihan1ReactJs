@@ -6,6 +6,8 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import CatFactTable from './CatFactTable';
+import TableSaya from './TableSaya';
+import TableSaya2 from './TableSaya2';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/table1" element={<CatFactTable />} />
+        <Route path="/table2" element={<TableSaya />} />
+        <Route path="/table3" element={<TableSaya2 />} />
         {/* Other routes */}
       </Routes>
     </Router>
