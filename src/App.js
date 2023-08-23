@@ -8,6 +8,7 @@ import Contact from './Contact';
 import CatFactTable from './CatFactTable';
 import TableSaya from './TableSaya';
 import TableSaya2 from './TableSaya2';
+import SaldoBck from './saldoBck';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/table1" element={<CatFactTable />} />
         <Route path="/table2" element={<TableSaya />} />
         <Route path="/table3" element={<TableSaya2 />} />
+        <Route path="/saldoBck" element={<SaldoBck />} />
         {/* Other routes */}
       </Routes>
     </Router>
